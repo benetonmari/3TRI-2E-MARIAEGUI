@@ -5,9 +5,53 @@
     --cor-cartao-frente: #144480;
     --cor-cartao-verso: #00f4bf;
 
-
 }
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
 font-family: Bai Jamjuree;
+background-color: rgb(218, 158, 218);
+background-image: url(bg-desktop.webp);
 
+}
+footer{
+    background-color: black;
+    color: white;
+    position: fixed; 
+    width: 100%;
+    height: 2rem;
+}
+footer p{
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 0.5rem;
+}
+
+#container{
+ display:flex;
+}
+
+.cartao{
+    margin: 1rem;
+    background-color: #ac16ac;
+    height: 20rem;
+}
+.cartao-conteudo{
+    height: 100%;
+    text-align: center;
+    
+}
+
+.cartao-conteudo h3{
+    
+    background-color: #8d358d;
+    text-align: left;
+    padding: 0.5rem;
+    position: absolute;
+    border-radius: 0.6rem;
+    font-size: 1vw;
+    margin: 0.6rem;
 }
