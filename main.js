@@ -19,4 +19,5 @@ function criaCartao(categoria, pergunta, resposta) {
 }
 
 criaCartao("Biologia", "Qual a função da mitocondria", "Produção de ATP")
-criaCartao('Matematica', 'Como é definido grupo?','É um conjunto unido de uma operação onde esta é fechada no conjunto e tem algumas propriedases')
+criaCartao('Matematica', 'Como é definido grupo?','É um conjunto unido de uma operação')
+

@@ -32,12 +32,15 @@ footer p{
 
 #container{
  display:flex;
+ flex-wrap: wrap;
 }
 
 .cartao{
     margin: 1rem;
     background-color: #ac16ac;
     height: 20rem;
+    width: 400px;
+    margin-top: 30px;
 }
 .cartao-conteudo{
     height: 100%;
@@ -60,13 +63,20 @@ footer p{
     border: solid 1px var(--text-color) ; 
     backface-visibility: hidden;
 }
-
+.cartao-conteudo-pergunta{
+    color: var(--text-color);
+    padding-top: 15px;
+}
+.cartao-conteudo-resposta{
+    color: var(--text-color);
+}
 
 p{
     color: rgb(255, 255, 255);
 }
 .cartao-conteudo-pergunta p{
     font-weight: 500;
+    
 }
 .cartao-conteudo-resposta p{
     color: var(--cor-cartao-verso);
